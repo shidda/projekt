@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PSPActivity"
+    android:background="#3f374f" >
+
+    <Button
+        android:id="@+id/droga_miedzy_budynkami_menu"
+        android:layout_width="275dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:text="Wróć do MENU"
+        android:background="#9996A7" />
+
+    <TextView
+        android:id="@+id/kursy_kodGrupy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Wybierz budynki między którymi chcesz się przemiszczać. Aplikacja pokazuje drogę przy użyciu map Google Maps"
+        android:textSize="30sp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/szukaj"
+        android:layout_width="275dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/droga_miedzy_budynkami_menu"
+        android:layout_alignBottom="@+id/droga_miedzy_budynkami_menu"
+        android:layout_alignRight="@+id/kursy_kodGrupy"
+        android:text="Szukaj drogi" 
+        android:background="#9996A7"/>
+
+    <Spinner
+        android:id="@+id/miejsce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kursy_kodGrupy"
+        android:layout_alignRight="@+id/kursy_kodGrupy"
+        android:layout_below="@+id/przedmiot"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/przedmiot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/nauczyciel"
+        android:layout_below="@+id/kursy_kodGrupy"
+        android:layout_marginTop="64dp"
+        android:text="Z jakiego budynku"
+        android:textSize="35sp" 
+        android:textColor="#ffffff"/>
+
+    <Spinner
+        android:id="@+id/dokad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/droga_miedzy_budynkami_menu"
+        android:layout_alignLeft="@+id/droga_miedzy_budynkami_menu"
+        android:layout_marginBottom="165dp" />
+
+    <TextView
+        android:id="@+id/nauczyciel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dokad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="Do jakiego budynku"
+        android:textSize="35sp" 
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f374f"
+
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="20px" >
+
+        <TextView
+        	android:id="@+id/kursy_kodKursu"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+         	android:paddingLeft="10px"
+        	android:text="TextView" 
+        	android:textColor="#ffffff"/>
+        
+        <TextView
+        	android:id="@+id/kursy_kodGrupy"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:paddingLeft="10px"
+       	 	android:text="TextView"
+       	 	android:textColor="#ffffff" />
+        
+        <TextView
+        	android:id="@+id/kursy_ZZU"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+       		android:layout_weight="1"
+        	android:paddingLeft="10px"
+        	android:text="TextView"
+        	android:textColor="#ffffff" />
+	</LinearLayout>
+        
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20px"
+        android:layout_weight="1">
+      	
+      	<TextView
+        	android:id="@+id/kursy_nazwa"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"      
+        	android:paddingLeft="10px"
+        	android:layout_weight="1"
+        	android:text="TextView"
+        	android:textColor="#ffffff" />
+        
+     	<TextView
+       		android:id="@+id/kursy_prowadzacy"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+       		android:paddingLeft="10px"
+       		android:layout_weight="1"
+        	android:text="TextView"
+        	android:textColor="#ffffff" />
+
+    	<TextView
+        	android:id="@+id/kursy_wolneMiejsca"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+     		android:paddingLeft="10px"
+        	android:text="TextView"
+        	android:textColor="#ffffff" />
+	</LinearLayout>
+    
+
+    <TextView
+        android:id="@+id/kursy_termin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20px"
+        android:layout_marginLeft="18dp"       
+        android:text="TextView"
+        android:textColor="#ffffff" />
+
+    
+	<TextView
+        android:id="@+id/kursy_uwagi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_weight="1"
+        android:paddingTop="20px"
+        android:text="TextView"
+        android:textColor="#ffffff" />
+    
+
+</LinearLayout>
